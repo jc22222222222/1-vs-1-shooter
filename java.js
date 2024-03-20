@@ -19,12 +19,12 @@ let schietknopP2 = document.querySelector("#schietp2");
 //functie voor het schieten en draaien van de magazijn p1
 function player1Schiet() {
     if (magazijnpositieP1 === kogelpositieP1) {
-        fotoSpelers[1].src = "/foto/5.png"; 
+        fotoSpelers[1].src = "foto/5.png"; 
         schietGeluid.play();
         setTimeout(winsound, 1000);
     } else {
-        fotoSpelers[1].src = "/foto/6.png"; 
-        fotoSpelers[0].src = "/foto/1.png"; 
+        fotoSpelers[1].src = "foto/6.png"; 
+        fotoSpelers[0].src = "foto/1.png"; 
         leegGeluid.play();
     }
     magzijnDraaien(0); 
@@ -33,12 +33,12 @@ function player1Schiet() {
 //functie voor het schieten en draaien van de magazijn p2
 function player2Schiet() {
     if (magazijnpositieP2 === kogelpositieP2) {
-        fotoSpelers[0].src = "/foto/3.png"; 
+        fotoSpelers[0].src = "foto/3.png"; 
         schietGeluid.play();
         setTimeout(winsound, 1000);
     } else {
-        fotoSpelers[1].src = "/foto/4.png"; 
-        fotoSpelers[0].src = "/foto/2.png";
+        fotoSpelers[1].src = "foto/4.png"; 
+        fotoSpelers[0].src = "foto/2.png";
         leegGeluid.play();
     }
     magzijnDraaien(1); 
