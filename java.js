@@ -9,9 +9,9 @@ let kogelpositieP2 = Math.floor(Math.random() * 6) + 1;
 //array voor de foto van p1 en p2 
 let fotoSpelers = [document.querySelector("#p1foto"), document.querySelector("#p2foto")];
 
-const schietGeluid = new Audio("sounds/pewsound.mp3");
-const leegGeluid = new Audio("sounds/leegwapen.mp3");
-const winGeluid = new Audio("sounds/gewonnensounds.mp3");
+const schietGeluid = new Audio("Sounds/pewsound.mp3");
+const leegGeluid = new Audio("Sounds/leegwapen.mp3");
+const winGeluid = new Audio("Sounds/gewonnensounds.mp3");
 
 let schietknopP1 = document.querySelector("#schietp1");
 let schietknopP2 = document.querySelector("#schietp2");
