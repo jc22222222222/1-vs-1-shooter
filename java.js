@@ -112,3 +112,5 @@ schietknopP2.addEventListener("click", switchTurns);
 // wingeluid: https://www.youtube.com/watch?v=Y5H4Das52wk
 // leeg magazijn geluid: https://www.youtube.com/watch?v=FdLpenwXnBE
 // pew geluid: https://www.youtube.com/watch?v=JZAkxE-eR88
+
+//bron audio toevoegen code: https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/1.loading-and-playing-sound-files.html
