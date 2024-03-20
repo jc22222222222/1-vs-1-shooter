@@ -107,3 +107,8 @@ function switchTurns() {
 
 schietknopP1.addEventListener("click", switchTurns);
 schietknopP2.addEventListener("click", switchTurns);
+
+// bron geluiden: 
+// wingeluid: https://www.youtube.com/watch?v=Y5H4Das52wk
+// leeg magazijn geluid: https://www.youtube.com/watch?v=FdLpenwXnBE
+// pew geluid: https://www.youtube.com/watch?v=JZAkxE-eR88
