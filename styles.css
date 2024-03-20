@@ -1,0 +1,62 @@
+
+
+.stickman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stickman img{
+    height: 60vh;
+}
+
+.stickman button{
+    height: 10vh;
+    width: 30vw;
+    background-color: greenyellow;
+    font-size: 40px;
+    border-radius: 15px;
+}
+
+
+.stickman{
+    margin-top: 150px;
+}
+
+.schietknop{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.schietknop button{
+    height: 15vh;
+    width: 20vw;
+    border-radius: 15px;
+    background-color: greenyellow;
+    font-size: 40px;
+}
+
+#schietp1{
+    margin-right: 600px;
+}
+
+#schietp2{
+    margin-left: 600px;
+}
+
+.namen{
+    display: flex;
+    font-size: 30px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+
+#player1{
+    margin-right: 300px;
+}
+
+#player2{
+    margin-left: 300px;
+}
+
